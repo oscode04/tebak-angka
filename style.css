@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #2d033b;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.card-input {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #810ca8;
+}
+
+.card-input input {
+  width: 200px;
+  /* height: 30px; */
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  outline: none;
+  padding: 10px 0 10px 15px;
+}
+
+.card-input input:focus {
+  border: none;
+  outline: none;
+}
+
+.card-input .jawab,
+.reset {
+  margin-top: 20px;
+  padding: 7px;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card-input .jawab {
+  background-color: #e80f88;
+  color: #fff;
+}
+
+.card-input .reset {
+  background-color: #e5b8f4;
+  color: #2d033b;
+}
+
+.card-input .jawab:hover {
+  background-color: #f04da7;
+  color: #fff;
+}
